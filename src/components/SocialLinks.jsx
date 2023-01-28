@@ -13,7 +13,7 @@ const SocialLinks = () => {
                     LinkedIn <FaLinkedin size={30}/>
                 </>
             ),
-            href: 'https://linkedin.com',
+            href: 'https://www.linkedin.com/in/hugo-lacour-790b251a3/',
             style: 'rounded-tr-md'
         },
         {
@@ -23,7 +23,7 @@ const SocialLinks = () => {
                     GitHub <FaGithub size={30}/>
                 </>
             ),
-            href: 'https://github.com',
+            href: 'https://github.com/hugoat91',
         },
         {
             id: 3,
@@ -41,7 +41,7 @@ const SocialLinks = () => {
                     Mon CV <BsFillPersonLinesFill size={30}/>
                 </>
             ),
-            href: '/CV.pdf',
+            href: '/CV_hugo.pdf',
             style: 'rounded-br-md',
             download: true,
         },
