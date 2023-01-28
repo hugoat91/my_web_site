@@ -17,7 +17,7 @@ const Home = () => {
                 <p className='text-gray-500 py-4 max-w-md'>
                     Etudiant à l'ESME Sudria en bac +4, je suis à la recherche d'un stage de 4 mois à partir de juin 2023.
                     Passionné par le monde de la data, j'aimerais travailler sur des projets 
-                    de datascience au sein d'une entreprise.
+                    de datascience au sein d'une entreprise. N'hesitez pas à découvrir mes projets.
                 </p>
 
                 <div>
