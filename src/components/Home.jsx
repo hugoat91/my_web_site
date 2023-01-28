@@ -15,7 +15,7 @@ const Home = () => {
                     Etudiant en Iot / Smart cities
                 </h2>
                 <p className='text-gray-500 py-4 max-w-md'>
-                    Je suis à la recherche d'un stage de 4 mois à partir de juin 2023.
+                    Etudiant à l'ESME Sudria en bac +4, je suis à la recherche d'un stage de 4 mois à partir de juin 2023.
                     Passionné par le monde de la data, j'aimerais travailler sur des projets 
                     de datascience au sein d'une entreprise.
                 </p>
