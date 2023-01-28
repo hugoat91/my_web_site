@@ -9,17 +9,20 @@ const Portfolio = () => {
         {
             id: 1,
             src: AppliEsme,
-            type: 'Demo'
+            type: 'Demo',
+            title: 'Application ESME'
         },
         {
             id: 2,
             src: SiteWeb,
-            type: 'Demo'
+            type: 'Demo',
+            title: 'Mon site web'
         },
         {
             id: 3,
             src: Biotech,
-            type: 'PowerPoint'
+            type: 'PowerPoint',
+            title: 'Prothèse + traitement image'
         },
 
 
@@ -44,7 +47,7 @@ const Portfolio = () => {
 
             <div className=' grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
             {
-                portfolios.map(({id, src, type}) => (
+                portfolios.map(({id, src, type, title}) => (
                     <div key={id} className=' shadow-md shadow-gray-600 rounded-lg'>
                         <img 
                             src={src} 
@@ -59,6 +62,8 @@ const Portfolio = () => {
                                 GitHub
                             </button>
                         </div>
+                            <p className=' mt-4 text-center font-bold'>{title}</p>
+                        
                     </div>
                 ))
             }
