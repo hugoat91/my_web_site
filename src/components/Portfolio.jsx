@@ -65,6 +65,7 @@ const Portfolio = () => {
                             <a 
                             href={href} 
                             target='_blank'
+                            rel='noreferrer'
                             download = {download}
                             > 
                             <button className=' w-1/2 px-6 py-3 m-4 
@@ -73,6 +74,7 @@ const Portfolio = () => {
                             <a 
                             href={href2} 
                             target='_blank'
+                            rel='noreferrer'
                             > 
                             <button className=' w-1/2 px-6 py-3 m-4 
                             duration-200 hover:scale-105'>GitHub</button>
