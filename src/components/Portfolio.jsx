@@ -1,7 +1,7 @@
 import React from 'react';
 import AppliEsme from '../assets/portfolio/projet_esme_logo.png';
 import SiteWeb from '../assets/portfolio/website.png';
-import Biotech from '../assets/portfolio/biotech.jpg';
+import Kaggle from '../assets/portfolio/kaggle.jpg';
 
 const Portfolio = () => {
 
@@ -10,6 +10,7 @@ const Portfolio = () => {
             id: 1,
             src: AppliEsme,
             type: 'Demo',
+            type2: 'GitHub',
             title: 'Application ESME',
             href: 'https://www.youtube.com/shorts/pMRQ5X8p26w',
             href2 : 'https://github.com/hugoat91/My_Digital_Campus_Mobile'
@@ -18,18 +19,22 @@ const Portfolio = () => {
         {
             id: 2,
             src: SiteWeb,
-            type: 'Demo',
+            type: 'Ici',
+            type2: 'GitHub',
             title: 'Mon site web',
             href2: 'https://github.com/hugoat91/my_web_site'
             
         },
         {
             id: 3,
-            src: Biotech,
-            type: 'PowerPoint',
-            title: 'Prothèse + traitement image',
-            href: '/PP_Biotech.pptx',
-            download: true
+            src: Kaggle,
+            type: 'Profil',
+            type2: 'Demo',
+            title: 'Mes codes Kaggle',
+            href: 'https://www.kaggle.com/hugolacour',
+            href2: 'https://youtu.be/sFFxp18fNIc'
+            
+            
         },
 
 
@@ -54,7 +59,7 @@ const Portfolio = () => {
 
             <div className=' grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
             {
-                portfolios.map(({id, src, type, title, href, href2, download}) => (
+                portfolios.map(({id, src, type, title, href, href2, type2}) => (
                     <div key={id} className=' shadow-md shadow-gray-600 rounded-lg'>
                         <img 
                             src={src} 
@@ -66,7 +71,7 @@ const Portfolio = () => {
                             href={href} 
                             target='_blank'
                             rel='noreferrer'
-                            download = {download}
+                            
                             > 
                             <button className=' w-1/2 px-6 py-3 m-4 
                             duration-200 hover:scale-105'>{type}</button>
@@ -77,7 +82,7 @@ const Portfolio = () => {
                             rel='noreferrer'
                             > 
                             <button className=' w-1/2 px-6 py-3 m-4 
-                            duration-200 hover:scale-105'>GitHub</button>
+                            duration-200 hover:scale-105'>{type2}</button>
                             </a>
                         </div>
                             <p className=' mt-4 text-center font-bold mb-5'>{title}</p>

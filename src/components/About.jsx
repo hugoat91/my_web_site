@@ -16,8 +16,8 @@ const About = () => {
                 en Iot / smart cities, diplomé de l'ESME Sudria. 
                 Le concept de "smart cities" est quelque chose qui me passionne et j'aimerais que ma carrière professionnelle 
                 me permette d'être un acteur de la transformation de nos villes. 
-                Depuis quelques mois, je me suis grandement penché sur le "Big Data". Et ça tombe bien pour 
-                transformer nos villes en "smart cities", les données sont quand même pas mal utiles.
+                Depuis quelques mois, je me suis grandement penché sur le "Big Data". J'ai notamment pris conscience de l'importance et du pouvoir
+                des données dans notre société actuelle par le biais de l'expression "Good Data" que j'aime particulièrement.
             </p>
 
             <br />
@@ -25,8 +25,8 @@ const About = () => {
             <p className=' text-xl'>
                 J'ai alors découvert un vaste domaine. Une découverte qui m'a amené à suivre des cours, des formations et mener 
                 des premiers projets afin de me familiariser avec la "datascience". 
-                Aujourd'hui, les concepts d'intelligence artificielle, de machine learning, de deep learning ou 
-                encore de collecte de données rythment mes journées. 
+                J'aimerais que les concepts d'intelligence artificielle, de machine learning, de deep learning ou 
+                encore de collecte de données rythment mes journées de stagiaire et d'ingénieur. 
             </p>
 
             <br />

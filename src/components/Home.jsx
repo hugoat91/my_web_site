@@ -16,7 +16,7 @@ const Home = () => {
                 </h2>
                 <p className='text-gray-500 py-4 max-w-md'>
                     Etudiant à l'ESME Sudria en bac +4, je suis à la recherche d'un stage de 4 mois à partir de juin 2023.
-                    Passionné par le monde de l'intelligence artificielle, du big data, j'aimerais travailler sur des projets 
+                    Fortement intéressé par le monde de l'intelligence artificielle et du big data, j'aimerais travailler sur des projets 
                     concrets au sein d'une entreprise. N'hesitez pas à découvrir mes projets.
                 </p>
 
